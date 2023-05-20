@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/beanpack-react/static/css/main.073c9b0a.css",
-    "main.js": "/beanpack-react/static/js/main.003cc30d.js",
+    "main.css": "/beanpack-react/static/css/main.ecc3831c.css",
+    "main.js": "/beanpack-react/static/js/main.73631a14.js",
     "static/js/787.f797fd43.chunk.js": "/beanpack-react/static/js/787.f797fd43.chunk.js",
-    "static/media/logo.svg": "/beanpack-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/beanpack-react/index.html",
-    "main.073c9b0a.css.map": "/beanpack-react/static/css/main.073c9b0a.css.map",
-    "main.003cc30d.js.map": "/beanpack-react/static/js/main.003cc30d.js.map",
+    "main.ecc3831c.css.map": "/beanpack-react/static/css/main.ecc3831c.css.map",
+    "main.73631a14.js.map": "/beanpack-react/static/js/main.73631a14.js.map",
     "787.f797fd43.chunk.js.map": "/beanpack-react/static/js/787.f797fd43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.003cc30d.js"
+    "static/css/main.ecc3831c.css",
+    "static/js/main.73631a14.js"
   ]
 }
