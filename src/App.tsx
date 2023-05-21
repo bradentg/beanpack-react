@@ -5,7 +5,7 @@ import { MainPage } from './pages/MainPage'
 
 
 function App() {
-  const [ loggedIn ] = useState<boolean>(false)
+  const [ loggedIn ] = useState<boolean>(true)
 
   return (
     <div className="App">
