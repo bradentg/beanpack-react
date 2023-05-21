@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "add-domain": "echo \"beanmc.info\" > build/CNAME",
+    "add-domain": "echo beanmc.info > build/CNAME",
     "predeploy": "npm run build",
     "deploy": "npm run add-domain && gh-pages -d build",
     "start": "react-scripts start",
