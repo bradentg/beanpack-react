@@ -1,15 +1,16 @@
-import React from 'react';
-import logo from './beanpack-logo.png';
-import './App.css';
-import { HomePage } from './HomePage';
+import { useState } from 'react'
+import './App.css'
+import { LoginPage } from './pages/LoginPage'
+import { MainPage } from './pages/MainPage'
+
 
 function App() {
+  const [ loggedIn ] = useState<boolean>(false)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <HomePage />
-      </header>
+      {!loggedIn && <LoginPage />}
+      {loggedIn && <MainPage />}
     </div>
   );
 }
